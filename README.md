@@ -74,11 +74,11 @@ Contains information on cancellations, including:
 4. Review the results and insights generated.
 
 ## Repository Structure
-
 ├── README.md          # Project description
 ├── sales_test.csv     # Sales dataset
 ├── canceled_test.csv  # Cancellation dataset
 ├── queries.sql        # All SQL queries
+
 
 ### 🚀 About Me
 #### Hi, I'm Amay Jaiswal! 👋
