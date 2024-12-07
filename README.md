@@ -11,7 +11,7 @@ This project demonstrates a comprehensive analysis of supply chain data using SQ
 - **Advanced Techniques**: Cumulative sales, order rankings, and customer contributions to sales.
 
 ## Tools and Technologies
-- **Database**: SQLite (or any SQL-supported database)
+- **Database**: MySQL
 - **Programming Language**: SQL
 - **Dataset**: `sales_test.csv` and `canceled_test.csv`
 - **Deployment**: Available on GitHub for exploration and learning.
@@ -59,7 +59,31 @@ Contains information on cancellations, including:
 - `NC_ORDER`: Number of items canceled
 - `NC_SHIP`: Number of canceled items shipped
 
+#### Key Findings
+- Understanding how frequently orders are canceled and which items are more likely to be canceled.
+- Determining service level performance for different customers and identifying top performers.
+- Performing an ABC classification to prioritize items based on sales volume.
+- Identifying peak sales and cancellation days, helping the business make informed operational decisions.
+  
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/sql-supply-chain-analysis.git
+   git clone https://github.com/heyamay/SQL-Supply-Chain-Analysis.git
+2. Load the datasets (sales_test.csv and canceled_test.csv) into your SQL database.
+3. Execute the provided SQL queries in your SQL environment.
+4. Review the results and insights generated.
+
+## Repository Structure
+
+├── README.md          # Project description
+├── sales_test.csv     # Sales dataset
+├── canceled_test.csv  # Cancellation dataset
+├── queries.sql        # All SQL queries
+
+### 🚀 About Me
+#### Hi, I'm Amay Jaiswal! 👋
+I am a Data Analytics Enthusiast and  Data science practitioner
+
+[Linkedin](https://www.linkedin.com/in/heyamay/)
+
+
